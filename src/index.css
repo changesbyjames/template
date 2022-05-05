@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-font: Inter;
+  --content-font: Nunito;
+
+  --primary-color-50: #f5fbf5;
+  --primary-color-100: #edf6ed;
+  --primary-color-200: #c7ebcc;
+  --primary-color-300: #99dca3;
+  --primary-color-400: #64bb70;
+  --primary-color-500: #369343;
+  --primary-color-600: #3a8544;
+  --primary-color-700: #3e7746;
+  --primary-color-800: #2a462e;
+  --primary-color-900: #162518;
+
+  --secondary-color-50: #f7f9fb;
+  --secondary-color-100: #edf4f6;
+  --secondary-color-200: #c7dceb;
+  --secondary-color-300: #99bfdc;
+  --secondary-color-400: #4598d6;
+  --secondary-color-500: #3182bd;
+  --secondary-color-600: #3a6585;
+  --secondary-color-700: #3e5f77;
+  --secondary-color-800: #2a3a46;
+  --secondary-color-900: #161f25;
+
+  --primary-text-color: #414141;
+  --secondary-text-color: #696969;
+  --tertiary-text-color: #bfbfbf;
+
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f8f8f8;
+
+  --primary-border-color: rgb(234, 234, 234);
+  --secondary-border-color: rgb(241, 241, 241);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color-50: #2e2f2e;
+    --primary-color-100: #303630;
+    --primary-color-200: #354f38;
+    --primary-color-300: #538d5b;
+    --primary-color-400: #51af5e;
+    --primary-color-500: #489c53;
+    --primary-color-600: #408d4b;
+    --primary-color-700: #37703f;
+    --primary-color-800: #2a462e;
+    --primary-color-900: #162518;
+
+    --secondary-color-50: #2e2f2f;
+    --secondary-color-100: #303436;
+    --secondary-color-200: #35444f;
+    --secondary-color-300: #406580;
+    --secondary-color-400: #4181b0;
+    --secondary-color-500: #2d6d9c;
+    --secondary-color-600: #2d5c7e;
+    --secondary-color-700: #375870;
+    --secondary-color-800: #2a3a46;
+    --secondary-color-900: #161f25;
+
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #c4c4c4;
+    --tertiary-text-color: #828282;
+
+    --primary-background-color: #1f1f1f;
+    --secondary-background-color: #0f0f0f;
+
+    --primary-border-color: rgb(52, 52, 52);
+    --secondary-border-color: rgb(41, 41, 41);
+  }
+}
